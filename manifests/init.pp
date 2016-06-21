@@ -45,7 +45,7 @@
 class ssh {
 
   include ['::ssh::config']
-  include ['::ssh:install']
-  include ['::ssh:service']
+  include ['::ssh::install']
+  include ['::ssh::service']
 
 }

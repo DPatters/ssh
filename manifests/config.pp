@@ -6,7 +6,7 @@ class ssh::config {
 	  group   => 'root',
 	  mode    => '0400',
 	  source  => 'puppet:///modules/ssh/sshd_config',
-	  require => Package['openssh-server]',	
+	  require => Package['openssh-server'],	
 }
 
 }
